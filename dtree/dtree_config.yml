@@ -1,0 +1,36 @@
+STOCKMARKET_T1__low: 0.51
+STOCKMARKET_T1__neutral: 0.13
+STOCKMARKET_T1__high: 0.36
+
+STOCKMARKET_T2__low: 0.16
+STOCKMARKET_T2__neutral: 0.09
+STOCKMARKET_T2__high: 0.75
+
+BTC__mag1: 0.3
+BTC__magx: 0.7
+ETH__mag1: 0.15
+ETH__magx: 0.85
+SOL__mag1: 0.05
+SOL__magx: 0.95
+
+REG__positive: 0.54
+REG__neutral: 0.28
+REG__negative: 0.18
+
+PUBLIC_PERCEPTION__positive: 0.4
+PUBLIC_PERCEPTION__neutral: 0.1
+PUBLIC_PERCEPTION__negative: 0.5
+
+TECHNOLOGY__positive: 0.3333
+TECHNOLOGY__neutral: 0.3333
+TECHNOLOGY__negative: 0.333
+
+MA_inputweights: [0.2, 0.3, 0.5]
+
+low_low: 0.25
+low: 0.66
+neutral: 1
+high: 1.5
+high_high: 4
+
+inflation: 0.02

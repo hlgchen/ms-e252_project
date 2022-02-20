@@ -1,0 +1,6 @@
+foreign exhchange data: FRB.csv @ https://www.federalreserve.gov/releases/h10/about.htm 
+crypto daily data: https://www.cryptodatadownload.com/data/gemini/ 
+historical data nasdaq: HistoricalData_comp.csv https://www.nasdaq.com/market-activity/index/comp/historical
+historical data s&p: HistoricalData_spx.csv https://www.nasdaq.com/market-activity/index/spx/historical
+
+solana: https://www.investing.com/crypto/solana/historical-data

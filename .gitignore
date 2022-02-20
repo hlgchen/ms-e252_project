@@ -1,0 +1,5 @@
+.DS_Store
+*checkpoint.ipynb
+*checkpoint.yml
+*checkpoint.py
+*.pyc
