@@ -21,9 +21,9 @@ PUBLIC_PERCEPTION__positive: 0.4
 PUBLIC_PERCEPTION__neutral: 0.1
 PUBLIC_PERCEPTION__negative: 0.5
 
-TECHNOLOGY__positive: 0.3333
-TECHNOLOGY__neutral: 0.3333
-TECHNOLOGY__negative: 0.333
+TECHNOLOGY__positive: 0.6
+TECHNOLOGY__neutral: 0.35
+TECHNOLOGY__negative: 0.05
 
 MA_inputweights: [0.2, 0.3, 0.5]
 
@@ -33,4 +33,4 @@ neutral: 1
 high: 1.5
 high_high: 4
 
-inflation: 0.02
+inflation: 0.98
