@@ -1,0 +1,304 @@
+('BTC', 'SOL') has ev : 4.62333895025313 
+	scenario (high_high|high_high) with return 16 has probability 0.182308752762
+	scenario (high|high_high) with return 6.0 has probability 0.068547485205
+	scenario (high_high|high) with return 6.0 has probability 0.04419977309625
+	scenario (neutral|high_high) with return 4 has probability 0.09171998858100001
+	scenario (high_high|neutral) with return 4 has probability 0.01251059578075
+	scenario (low|high_high) with return 2.64 has probability 0.10680612287100001
+	scenario (high_high|low) with return 2.64 has probability 0.012320442441250003
+	scenario (high|high) with return 2.25 has probability 0.016618967803125
+	scenario (neutral|high) with return 1.5 has probability 0.022237016173125002
+	scenario (high|neutral) with return 1.5 has probability 0.004703942439375
+	scenario (low_low|high_high) with return 1.0 has probability 0.12508670917499998
+	scenario (neutral|neutral) with return 1 has probability 0.006294111965375001
+	scenario (high_high|low_low) with return 1.0 has probability 0.022830076822250002
+	scenario (low|high) with return 0.99 has probability 0.025894568004375
+	scenario (high|low) with return 0.99 has probability 0.004632445415625
+	scenario (low|neutral) with return 0.66 has probability 0.007329369599125001
+	scenario (neutral|low) with return 0.66 has probability 0.006198445345625002
+	scenario (low|low) with return 0.4356 has probability 0.007217967701875001
+	scenario (low_low|high) with return 0.375 has probability 0.030326597484374992
+	scenario (high|low_low) with return 0.375 has probability 0.008584033018125
+	scenario (low_low|neutral) with return 0.25 has probability 0.008583840503124999
+	scenario (neutral|low_low) with return 0.25 has probability 0.011485868636125003
+	scenario (low_low|low) with return 0.165 has probability 0.008453371421875
+	scenario (low|low_low) with return 0.165 has probability 0.013375068137375002
+	scenario (low_low|low_low) with return 0.0625 has probability 0.015664301009375
+
+
+('ETH', 'SOL') has ev : 4.564658628682907 
+	scenario (high_high|high_high) with return 16 has probability 0.19509818729099998
+	scenario (high|high_high) with return 6.0 has probability 0.0602212022775
+	scenario (high_high|high) with return 6.0 has probability 0.04730050246687499
+	scenario (neutral|high_high) with return 4 has probability 0.060586336375500004
+	scenario (high_high|neutral) with return 4 has probability 0.013388246706625
+	scenario (low|high_high) with return 2.64 has probability 0.0701718920205
+	scenario (high_high|low) with return 2.64 has probability 0.013184753614375
+	scenario (high|high) with return 2.25 has probability 0.014600305448437498
+	scenario (neutral|high) with return 1.5 has probability 0.0146888302396875
+	scenario (high|neutral) with return 1.5 has probability 0.0041325669103125
+	scenario (low_low|high_high) with return 1.0 has probability 0.1395970188225
+	scenario (neutral|neutral) with return 1 has probability 0.0041576235520625
+	scenario (high_high|low_low) with return 1.0 has probability 0.024431666259874998
+	scenario (low|high) with return 0.99 has probability 0.0170127964678125
+	scenario (high|low) with return 0.99 has probability 0.0040697544421875
+	scenario (low|neutral) with return 0.66 has probability 0.0048154143064375
+	scenario (neutral|low) with return 0.66 has probability 0.0040944302384375
+	scenario (low|low) with return 0.4356 has probability 0.004742222979062501
+	scenario (low_low|high) with return 0.375 has probability 0.033844543739062496
+	scenario (high|low_low) with return 0.375 has probability 0.0075413530809374995
+	scenario (low_low|neutral) with return 0.25 has probability 0.009579583252187501
+	scenario (neutral|low_low) with return 0.25 has probability 0.007587077926187501
+	scenario (low_low|low) with return 0.165 has probability 0.009433979495312501
+	scenario (low|low_low) with return 0.165 has probability 0.0087874534893125
+	scenario (low_low|low_low) with return 0.0625 has probability 0.0174813914065625
+
+
+('BTC', 'ETH') has ev : 4.542674924664222 
+	scenario (high_high|high_high) with return 16 has probability 0.17553111336600002
+	scenario (high|high_high) with return 6.0 has probability 0.06599911531500001
+	scenario (high_high|high) with return 6.0 has probability 0.047426287998750004
+	scenario (neutral|high_high) with return 4 has probability 0.08831014128300002
+	scenario (high_high|neutral) with return 4 has probability 0.018707912132250003
+	scenario (low|high_high) with return 2.64 has probability 0.10283542275300002
+	scenario (high_high|low) with return 2.64 has probability 0.015526651113750005
+	scenario (high|high) with return 2.25 has probability 0.017832126684374998
+	scenario (neutral|high) with return 1.5 has probability 0.023860283874375002
+	scenario (high|neutral) with return 1.5 has probability 0.007034112793125
+	scenario (low_low|high_high) with return 1.0 has probability 0.12043639702499999
+	scenario (neutral|neutral) with return 1 has probability 0.009411997291125003
+	scenario (high_high|low_low) with return 1.0 has probability 0.021301452836750008
+	scenario (low|high) with return 0.99 has probability 0.027784831318125
+	scenario (high|low) with return 0.99 has probability 0.005837969221875001
+	scenario (low|neutral) with return 0.66 has probability 0.010960085742375001
+	scenario (neutral|low) with return 0.66 has probability 0.007811496931875003
+	scenario (low|low) with return 0.4356 has probability 0.009096334550625003
+	scenario (low_low|high) with return 0.375 has probability 0.032540392078124994
+	scenario (high|low_low) with return 0.375 has probability 0.008009275479375001
+	scenario (low_low|neutral) with return 0.25 has probability 0.012835978134374999
+	scenario (neutral|low_low) with return 0.25 has probability 0.010716814093375005
+	scenario (low_low|low) with return 0.165 has probability 0.010653233390625001
+	scenario (low|low_low) with return 0.165 has probability 0.012479519247125006
+	scenario (low_low|low_low) with return 0.0625 has probability 0.014615472903125001
+
+
+('SOL', 'SOL') has ev : 4.525538414302757 
+	scenario (high_high|high_high) with return 16 has probability 0.20362447697699998
+	scenario (high|high_high) with return 6.0 has probability 0.054670346992499994
+	scenario (high_high|high) with return 6.0 has probability 0.04936765538062499
+	scenario (neutral|high_high) with return 4 has probability 0.039830568238499994
+	scenario (high_high|neutral) with return 4 has probability 0.013973347323874999
+	scenario (low|high_high) with return 2.64 has probability 0.04574907145349999
+	scenario (high_high|low) with return 2.64 has probability 0.013760961063125
+	scenario (high|high) with return 2.25 has probability 0.013254530545312497
+	scenario (neutral|high) with return 1.5 has probability 0.009656706284062498
+	scenario (high|neutral) with return 1.5 has probability 0.0037516498909374997
+	scenario (low_low|high_high) with return 1.0 has probability 0.1492705585875
+	scenario (neutral|neutral) with return 1 has probability 0.0027332979431875
+	scenario (high_high|low_low) with return 1.0 has probability 0.025499392551625
+	scenario (low|high) with return 0.99 has probability 0.011091615443437498
+	scenario (high|low) with return 0.99 has probability 0.0036946271265625
+	scenario (low|neutral) with return 0.66 has probability 0.0031394441113124995
+	scenario (neutral|low) with return 0.66 has probability 0.0026917535003125
+	scenario (low|low) with return 0.4356 has probability 0.0030917264971875
+	scenario (low_low|high) with return 0.375 has probability 0.03618984124218749
+	scenario (high|low_low) with return 0.375 has probability 0.006846233122812499
+	scenario (low_low|neutral) with return 0.25 has probability 0.010243411751562499
+	scenario (neutral|low_low) with return 0.25 has probability 0.004987884119562499
+	scenario (low_low|low) with return 0.165 has probability 0.0100877182109375
+	scenario (low|low_low) with return 0.165 has probability 0.005729043723937499
+	scenario (low_low|low_low) with return 0.0625 has probability 0.0186927850046875
+
+
+('ETH', 'ETH') has ev : 4.485018406672238 
+	scenario (high_high|high_high) with return 16 has probability 0.187845078813
+	scenario (high|high_high) with return 6.0 has probability 0.0579823761825
+	scenario (high_high|high) with return 6.0 has probability 0.05075336580562499
+	scenario (neutral|high_high) with return 4 has probability 0.05833393579650001
+	scenario (high_high|neutral) with return 4 has probability 0.020020320964874997
+	scenario (low|high_high) with return 2.64 has probability 0.06756313203150001
+	scenario (high_high|low) with return 2.64 has probability 0.016615886188125
+	scenario (high|high) with return 2.25 has probability 0.015666105107812498
+	scenario (neutral|high) with return 1.5 has probability 0.0157610920715625
+	scenario (high|neutral) with return 1.5 has probability 0.0061796975934375
+	scenario (low_low|high_high) with return 1.0 has probability 0.1344072611175
+	scenario (neutral|neutral) with return 1 has probability 0.006217166428687501
+	scenario (high_high|low_low) with return 1.0 has probability 0.022795805314625002
+	scenario (low|high) with return 0.99 has probability 0.018254704230937502
+	scenario (high|low) with return 0.99 has probability 0.005128846439062501
+	scenario (low|neutral) with return 0.66 has probability 0.007200803966812501
+	scenario (neutral|low) with return 0.66 has probability 0.005159943737812501
+	scenario (low|low) with return 0.4356 has probability 0.005976314734687502
+	scenario (low_low|high) with return 0.375 has probability 0.036315142954687504
+	scenario (high|low_low) with return 0.375 has probability 0.0070364098303125015
+	scenario (low_low|neutral) with return 0.25 has probability 0.0143249773940625
+	scenario (neutral|low_low) with return 0.25 has probability 0.0070790730960625025
+	scenario (low_low|low) with return 0.165 has probability 0.011889029873437503
+	scenario (low|low_low) with return 0.165 has probability 0.008199075610437503
+	scenario (low_low|low_low) with return 0.0625 has probability 0.016310897132187505
+
+
+('SOL', 'ETH') has ev : 4.446580728010919 
+	scenario (high_high|high_high) with return 16 has probability 0.19605438911099998
+	scenario (high|high_high) with return 6.0 has probability 0.0526378834275
+	scenario (high_high|high) with return 6.0 has probability 0.05297141767687499
+	scenario (neutral|high_high) with return 4 has probability 0.0383497988055
+	scenario (high_high|neutral) with return 4 has probability 0.020895260186625
+	scenario (low|high_high) with return 2.64 has probability 0.0440482715505
+	scenario (high_high|low) with return 2.64 has probability 0.017342042904375
+	scenario (high|high) with return 2.25 has probability 0.014222090723437497
+	scenario (neutral|high) with return 1.5 has probability 0.0103616308696875
+	scenario (high|neutral) with return 1.5 has probability 0.0056100874603125
+	scenario (low_low|high_high) with return 1.0 has probability 0.1437211705125
+	scenario (neutral|neutral) with return 1 has probability 0.0040872791870625
+	scenario (high_high|low_low) with return 1.0 has probability 0.023792040299875004
+	scenario (low|high) with return 0.99 has probability 0.011901286172812497
+	scenario (high|low) with return 0.99 has probability 0.0046560979171875
+	scenario (low|neutral) with return 0.66 has probability 0.0046946161164375
+	scenario (neutral|low) with return 0.66 has probability 0.0033922416084375003
+	scenario (low|low) with return 0.4356 has probability 0.0038963015240625004
+	scenario (low_low|high) with return 0.375 has probability 0.038831643539062495
+	scenario (high|low_low) with return 0.375 has probability 0.006387832730937501
+	scenario (low_low|neutral) with return 0.25 has probability 0.015317643567187499
+	scenario (neutral|low_low) with return 0.25 has probability 0.004653912431187501
+	scenario (low_low|low) with return 0.165 has probability 0.012712894195312503
+	scenario (low|low_low) with return 0.165 has probability 0.0053454465193125
+	scenario (low_low|low_low) with return 0.0625 has probability 0.017441179951562504
+
+
+('BTC', 'BTC') has ev : 4.421678886280856 
+	scenario (high_high|high_high) with return 16 has probability 0.16536465427199998
+	scenario (high|high_high) with return 6.0 has probability 0.06217656047999999
+	scenario (high_high|high) with return 6.0 has probability 0.052266060352500004
+	scenario (neutral|high_high) with return 4 has probability 0.083195370336
+	scenario (high_high|neutral) with return 4 has probability 0.028003886659500002
+	scenario (low|high_high) with return 2.64 has probability 0.096879372576
+	scenario (high_high|low) with return 2.64 has probability 0.020335964122500005
+	scenario (high|high) with return 2.25 has probability 0.019651865006249998
+	scenario (neutral|high) with return 1.5 has probability 0.026295185426250003
+	scenario (high|neutral) with return 1.5 has probability 0.01052936832375
+	scenario (low_low|high_high) with return 1.0 has probability 0.11346092879999997
+	scenario (neutral|neutral) with return 1 has probability 0.014088825279750002
+	scenario (high_high|low_low) with return 1.0 has probability 0.0190085168585
+	scenario (low|high) with return 0.99 has probability 0.030620226288750003
+	scenario (high|low) with return 0.99 has probability 0.0076462549312500015
+	scenario (low|neutral) with return 0.66 has probability 0.01640615995725
+	scenario (neutral|low) with return 0.66 has probability 0.010231074311250005
+	scenario (low|low) with return 0.4356 has probability 0.011913884823750004
+	scenario (low_low|high) with return 0.375 has probability 0.03586108396874999
+	scenario (high|low_low) with return 0.375 has probability 0.007147139171249999
+	scenario (low_low|neutral) with return 0.25 has probability 0.019214184581249998
+	scenario (neutral|low_low) with return 0.25 has probability 0.00956323227925
+	scenario (low_low|low) with return 0.165 has probability 0.013953026343750001
+	scenario (low|low_low) with return 0.165 has probability 0.01113619591175
+	scenario (low_low|low_low) with return 0.0625 has probability 0.013042230743749996
+
+
+('ETH', 'BTC') has ev : 4.365558073656243 
+	scenario (high_high|high_high) with return 16 has probability 0.17696541609599994
+	scenario (high|high_high) with return 6.0 has probability 0.054624137039999986
+	scenario (high_high|high) with return 6.0 has probability 0.05593266081374999
+	scenario (neutral|high_high) with return 4 has probability 0.054955334928
+	scenario (high_high|neutral) with return 4 has probability 0.029968432352249996
+	scenario (low|high_high) with return 2.64 has probability 0.063649992048
+	scenario (high_high|low) with return 2.64 has probability 0.02176258504875
+	scenario (high|high) with return 2.25 has probability 0.017264804596875
+	scenario (neutral|high) with return 1.5 has probability 0.017369484819375
+	scenario (high|neutral) with return 1.5 has probability 0.009250393618125
+	scenario (low_low|high_high) with return 1.0 has probability 0.12662262455999998
+	scenario (neutral|neutral) with return 1 has probability 0.009306480743625
+	scenario (high_high|low_low) with return 1.0 has probability 0.020342013896749996
+	scenario (low|high) with return 0.99 has probability 0.020117565875625
+	scenario (high|low) with return 0.99 has probability 0.006717484434375001
+	scenario (low|neutral) with return 0.66 has probability 0.010778888457375001
+	scenario (neutral|low) with return 0.66 has probability 0.006758213986875002
+	scenario (low|low) with return 0.4356 has probability 0.007827452368125003
+	scenario (low_low|high) with return 0.375 has probability 0.040021041778125
+	scenario (high|low_low) with return 0.375 has probability 0.006278994954374999
+	scenario (low_low|neutral) with return 0.25 has probability 0.021443068606875
+	scenario (neutral|low_low) with return 0.25 has probability 0.006317065850874999
+	scenario (low_low|low) with return 0.165 has probability 0.015571605440625004
+	scenario (low|low_low) with return 0.165 has probability 0.0073165087921249995
+	scenario (low_low|low_low) with return 0.0625 has probability 0.014555155720624999
+
+
+('SOL', 'BTC') has ev : 4.328144198573165 
+	scenario (high_high|high_high) with return 16 has probability 0.18469925731199996
+	scenario (high|high_high) with return 6.0 has probability 0.049589188079999985
+	scenario (high_high|high) with return 6.0 has probability 0.05837706112124999
+	scenario (neutral|high_high) with return 4 has probability 0.03612864465599999
+	scenario (high_high|neutral) with return 4 has probability 0.03127812948075
+	scenario (low|high_high) with return 2.64 has probability 0.04149707169599999
+	scenario (high_high|low) with return 2.64 has probability 0.02271366566625
+	scenario (high|high) with return 2.25 has probability 0.015673430990624997
+	scenario (neutral|high) with return 1.5 has probability 0.011419017748124998
+	scenario (high|neutral) with return 1.5 has probability 0.008397743814374999
+	scenario (low_low|high_high) with return 1.0 has probability 0.13539708839999998
+	scenario (neutral|neutral) with return 1 has probability 0.006118251052874999
+	scenario (high_high|low_low) with return 1.0 has probability 0.021231011922249993
+	scenario (low|high) with return 0.99 has probability 0.013115792266874997
+	scenario (high|low) with return 0.99 has probability 0.006098304103125
+	scenario (low|neutral) with return 0.66 has probability 0.007027374124124999
+	scenario (neutral|low) with return 0.66 has probability 0.004442973770625001
+	scenario (low|low) with return 0.4356 has probability 0.005103164064375
+	scenario (low_low|high) with return 0.375 has probability 0.042794346984374995
+	scenario (high|low_low) with return 0.375 has probability 0.005700232143124998
+	scenario (low_low|neutral) with return 0.25 has probability 0.022928991290625
+	scenario (neutral|low_low) with return 0.25 has probability 0.004152954898624999
+	scenario (low_low|low) with return 0.165 has probability 0.016650658171875003
+	scenario (low|low_low) with return 0.165 has probability 0.004770050712374999
+	scenario (low_low|low_low) with return 0.0625 has probability 0.015563772371874998
+
+
+('CASH', 'SOL') has ev : 2.7765499282499997 
+	scenario (inflation|high_high) with return 3.92 has probability 0.628458
+	scenario (inflation|high) with return 1.47 has probability 0.15236624999999998
+	scenario (inflation|neutral) with return 0.98 has probability 0.04312675
+	scenario (inflation|low) with return 0.6468 has probability 0.04247125
+	scenario (inflation|low_low) with return 0.245 has probability 0.07870025
+
+
+('CASH', 'ETH') has ev : 2.7281070827500002 
+	scenario (inflation|high_high) with return 3.92 has probability 0.605094
+	scenario (inflation|high) with return 1.47 has probability 0.16348875
+	scenario (inflation|neutral) with return 0.98 has probability 0.06449025
+	scenario (inflation|low) with return 0.6468 has probability 0.05352375000000001
+	scenario (inflation|low_low) with return 0.245 has probability 0.07343075000000002
+
+
+('CASH', 'BTC') has ev : 2.6554428144999993 
+	scenario (inflation|high_high) with return 3.92 has probability 0.5700479999999999
+	scenario (inflation|high) with return 1.47 has probability 0.18017249999999999
+	scenario (inflation|neutral) with return 0.98 has probability 0.0965355
+	scenario (inflation|low) with return 0.6468 has probability 0.07010250000000001
+	scenario (inflation|low_low) with return 0.245 has probability 0.06552649999999999
+
+
+('BTC', 'CASH') has ev : 1.5991985891000005 
+	scenario (high_high|inflation) with return 3.92 has probability 0.29008900000000004
+	scenario (high|inflation) with return 1.47 has probability 0.1090725
+	scenario (neutral|inflation) with return 0.98 has probability 0.14594450000000003
+	scenario (low|inflation) with return 0.6468 has probability 0.16994950000000003
+	scenario (low_low|inflation) with return 0.245 has probability 0.19903749999999998
+
+
+('ETH', 'CASH') has ev : 1.5789012480499998 
+	scenario (high_high|inflation) with return 3.92 has probability 0.3104395
+	scenario (high|inflation) with return 1.47 has probability 0.09582375
+	scenario (neutral|inflation) with return 0.98 has probability 0.09640475000000001
+	scenario (low|inflation) with return 0.6468 has probability 0.11165725000000001
+	scenario (low_low|inflation) with return 0.245 has probability 0.22212625000000003
+
+
+('SOL', 'CASH') has ev : 1.5653696873499998 
+	scenario (high_high|inflation) with return 3.92 has probability 0.3240065
+	scenario (high|inflation) with return 1.47 has probability 0.08699124999999999
+	scenario (neutral|inflation) with return 0.98 has probability 0.06337825
+	scenario (low|inflation) with return 0.6468 has probability 0.07279574999999999
+	scenario (low_low|inflation) with return 0.245 has probability 0.23751875
+
+
+('CASH', 'CASH') has ev : 0.9603999999999999 
+	scenario (inflation|inflation) with return 0.9604 has probability 1
+
+
