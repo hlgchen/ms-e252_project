@@ -169,7 +169,7 @@ def update_base_proba(coin_base_probas, ma_probas):
 
     p = dict()
     p["low_low"] = ma_neutral[0] + ma_low[0] + ma_low[1]
-    p["low"] = ma_neutral[1] + ma_low[2] + ma_high[1]
+    p["low"] = ma_neutral[1] + ma_low[2] + ma_high[0]
     p["neutral"] = ma_neutral[2] + ma_low[3] + ma_high[1]
     p["high"] = ma_neutral[3] + ma_low[4] + ma_high[2]
     p["high_high"] = ma_neutral[4] + ma_high[3] + ma_high[4]
