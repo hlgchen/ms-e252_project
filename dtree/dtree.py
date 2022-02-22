@@ -201,6 +201,25 @@ def sensitivity_return_level(probabilities, config, ux, X, magnitude_values):
     return df
 
 
+def sensitivity_magnitude_probabilities(config, ux):
+    df = pd.DataFrame()
+    i = 0
+    for coin in ["BTC", "ETH", "SOL"]:
+        for v in np.arange(0, 1, 0.1):
+            conf_copy = deepcopy(config)
+            conf_copy[f"{coin}__mag1"] = v
+            probabilities = calculate_probabilities(conf_copy)
+            best_action, deal_value = get_deal_value(
+                probabilities, conf_copy, ux, verbose=False
+            )
+            df.loc[i, "mag1_probability"] = v
+            df.loc[i, "coin"] = coin
+            df.loc[i, "best_action"] = best_action
+            df.loc[i, "deal_value"] = deal_value
+            i += 1
+    return df
+
+
 def get_ux(risk_tolerance):
     def u(x):
         return -np.exp(-x / risk_tolerance)
@@ -253,6 +272,8 @@ if __name__ == "__main__":
         probabilities, config, ux, "magnitudes", magnitude_values
     )
 
+    mag_proba_sensitivity = sensitivity_magnitude_probabilities(config, ux)
+
     # *********************** save files ***********************
 
     with open(get_path("dtree/outputs/probabilities.txt"), "w") as f:
@@ -286,3 +307,5 @@ if __name__ == "__main__":
     rho_sensitivity.to_excel("rho_sensitivity.xlsx", index=False)
 
     ret_level_sensitivity.to_excel("ret_level_sensitivity.xlsx", index=False)
+
+    mag_proba_sensitivity.to_excel("mag_proba_sensitivity.xlsx", index=False)
