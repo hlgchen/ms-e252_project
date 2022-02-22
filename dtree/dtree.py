@@ -14,7 +14,7 @@ def get_project_root():
     return Path(__file__).parent.parent
 
 
-def get_return(decision, p, config, verbose=True):
+def get_return(decision, p, config, ux, verbose=True):
     """
     Returns the expected value of a deal given decisions made.
 
@@ -29,7 +29,7 @@ def get_return(decision, p, config, verbose=True):
         - verbose {bool}: If true the probability for each return outcome is printed out
 
     Returns:
-        - ev {float}: expected value of deal given decision
+        - ce {float}: certain equivalent of deal given decision
         - probas {dict}: probabilities of different scenarios and the associated returns
 
     """
@@ -46,7 +46,10 @@ def get_return(decision, p, config, verbose=True):
     for return_level1, p_return_level1 in p1.items():
         for return_level2, p_return_level2 in p2.items():
             rl = return_level1 + "|" + return_level2
-            probas[(rl, config[return_level1] * config[return_level2])] = (
+            total_return = config[return_level1] * config[return_level2]
+            absolute_return = (total_return - 1) * config["investment_amount"]
+            u_value = ux[0](absolute_return)
+            probas[(rl, u_value, absolute_return, total_return)] = (
                 p_return_level1 * p_return_level2
             )
     probas = dict(sorted(probas.items(), key=lambda item: item[0][1], reverse=True))
@@ -54,10 +57,11 @@ def get_return(decision, p, config, verbose=True):
         print(probas)
 
     ev = sum([k[1] * v for k, v in probas.items()])
-    return ev, probas
+    ce = ux[1](ev)
+    return ce, probas
 
 
-def get_all_returns(probabilities, config, detailed=False):
+def get_all_returns(probabilities, config, ux, detailed=False):
     """
     Returns dataframe with EV for all possible decision combinations.
 
@@ -82,41 +86,42 @@ def get_all_returns(probabilities, config, detailed=False):
     df = pd.DataFrame()
     for i, decision in enumerate(options):
         df.loc[i, "choice"] = str(decision)
-        df.loc[i, "ev"], probas = get_return(
-            decision, probabilities, config, verbose=False
+        df.loc[i, "ce"], probas = get_return(
+            decision, probabilities, config, ux, verbose=False
         )
         if detailed:
             for j, (k, v) in enumerate(probas.items()):
-                s = f"scenario ({k[0]}) with return {round(k[1], 4)} has probability {v}"
+                s = f"scenario ({k[0]}) with u-value {round(k[1], 4)}"
+                s += f" (return abs: {round(k[2], 4)}, rel:{round(k[3], 4)}) has probability {v}"
                 df.loc[i, f"scenario{j}"] = s
-    df = df.sort_values(by="ev", ascending=False).reset_index(drop=True)
+    df = df.sort_values(by="ce", ascending=False).reset_index(drop=True)
     return df
 
 
-def get_deal_value(probabilities, config, verbose=True):
+def get_deal_value(probabilities, config, ux, verbose=True):
     """
-    Returns the best action and the corresponding EV.
+    Returns the best action and the corresponding CE.
 
     Params:
         - probabilities {dict}: dictionary containing probabilities for possible values of
                     all uncertainties
         - config {dict}: config dictionary, which also contains the mapping from
                         return levels to actual return numbers
-        - verbose {bool}: if True prints out the best action and EV
+        - verbose {bool}: if True prints out the best action and CE
 
     Returns:
         - df.iloc[0, 0] {tuple[str, str]}: best action tuple
-        - df.iloc[0, 1] {float}: corresponding EV
+        - df.iloc[0, 1] {float}: corresponding CE
     """
-    df = get_all_returns(probabilities, config)
+    df = get_all_returns(probabilities, config, ux)
     if verbose:
-        print(f"best action is: {df.loc[0, 'choice']} with EV of {df.loc[0, 'ev']}")
+        print(f"best action is: {df.loc[0, 'choice']} with CE of {df.loc[0, 'ce']}")
     return df.iloc[0, 0], df.iloc[0, 1]
 
 
-def clairvoyance(X, probabilities, config):
+def clairvoyance(X, probabilities, config, ux):
     """
-    Returns value of deal when having clairvoyance on X and optimal decision and EV given a X takes on a certain value.
+    Returns value of deal when having clairvoyance on X and optimal decision and CE given a X takes on a certain value.
 
     Params:
         - X {str}: string specifying the
@@ -141,7 +146,7 @@ def clairvoyance(X, probabilities, config):
         p_X[X][outcome] = 1
         hypothetical_probabilities = calculate_probabilities(config, p_X)
         action, value = get_deal_value(
-            hypothetical_probabilities, config, verbose=False
+            hypothetical_probabilities, config, ux, verbose=False
         )
         best_action_values[outcome] = (action, value)
 
@@ -152,7 +157,7 @@ def clairvoyance(X, probabilities, config):
     result = dict()
     result["deal_value_free_cv"] = deal_value_with_cv
     result["cv_value_with_delta"] = (
-        deal_value_with_cv - get_deal_value(probabilities, config, verbose=False)[1]
+        deal_value_with_cv - get_deal_value(probabilities, config, ux, verbose=False)[1]
     )
     result["best_action_values"] = best_action_values
 
@@ -163,13 +168,24 @@ def get_path(path):
     return os.path.join(get_project_root(), path)
 
 
+def get_ux(risk_tolerance):
+    def u(x):
+        return -np.exp(-x / risk_tolerance)
+
+    def x(u):
+        return -risk_tolerance * np.log(-u)
+
+    return u, x
+
+
 if __name__ == "__main__":
     with open(get_path("dtree/dtree_config.yml"), "r") as stream:
         config = yaml.safe_load(stream)
 
+    ux = get_ux(4000)
     probabilities = calculate_probabilities(config)
-    decision_evs = get_all_returns(probabilities, config)
-    decision_details = get_all_returns(probabilities, config, detailed=True)
+    decision_ces = get_all_returns(probabilities, config, ux)
+    decision_details = get_all_returns(probabilities, config, ux, detailed=True)
 
     uncertainties = [
         "stock_t1",
@@ -188,20 +204,20 @@ if __name__ == "__main__":
     ]
     cv = dict()
     for uncertainty in uncertainties:
-        cv[uncertainty] = clairvoyance(uncertainty, probabilities, config)
+        cv[uncertainty] = clairvoyance(uncertainty, probabilities, config, ux)
 
     with open(get_path("dtree/outputs/probabilities.txt"), "w") as f:
         pprint(probabilities, stream=f)
 
-    with open(get_path("dtree/outputs/decision_evs.txt"), "w") as f:
-        pprint(decision_evs, stream=f)
+    with open(get_path("dtree/outputs/decision_ces.txt"), "w") as f:
+        pprint(decision_ces, stream=f)
 
     with open(get_path("dtree/outputs/decision_details.txt"), "w") as f:
         s = ""
         ncol = decision_details.shape[1]
         nrow = decision_details.shape[0]
         for i in range(nrow):
-            s += f"{decision_details.loc[i, 'choice']} has ev : {decision_details.loc[i, 'ev']} \n"
+            s += f"{decision_details.loc[i, 'choice']} has ce : {decision_details.loc[i, 'ce']} \n"
             for j in range(2, ncol):
                 detail = decision_details.iloc[i, j]
                 if isinstance(detail, str):
