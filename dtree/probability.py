@@ -44,7 +44,7 @@ def coin_base(coin, p_stock, config):
         for the particular coin
     """
     mag1 = config[f"{coin}__mag1"]
-    magx = config[f"{coin}__magx"]
+    magx = 1 - mag1
 
     p_coin = dict()
     p_coin["low_low"] = magx * p_stock["low"]

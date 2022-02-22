@@ -183,6 +183,24 @@ def sensitivity_of_risk_tolerance(probabilities, config):
     return df
 
 
+def sensitivity_return_level(probabilities, config, ux, X, magnitude_values):
+    df = pd.DataFrame()
+    for i, v in enumerate(magnitude_values):
+        conf_copy = deepcopy(config)
+        conf_copy["low_low"] = 1 / v[1]
+        conf_copy["low"] = 1 / v[0]
+        conf_copy["high"] = 1 * v[0]
+        conf_copy["high_high"] = 1 * v[1]
+
+        best_action, deal_value = get_deal_value(
+            probabilities, conf_copy, ux, verbose=False
+        )
+        df.loc[i, X] = str(v)
+        df.loc[i, "best_action"] = best_action
+        df.loc[i, "deal_value"] = deal_value
+    return df
+
+
 def get_ux(risk_tolerance):
     def u(x):
         return -np.exp(-x / risk_tolerance)
@@ -224,7 +242,16 @@ if __name__ == "__main__":
     cv_concise = dict(
         sorted(cv_concise.items(), key=lambda item: item[1], reverse=True)
     )
+
+    # **** sensitivity analyses ****
     rho_sensitivity = sensitivity_of_risk_tolerance(probabilities, config)
+    magnitude_values = itertools.product(
+        np.arange(1, 2.6, 0.25), np.arange(1, 6.1, 0.5)
+    )
+    magnitude_values = [x for x in magnitude_values if x[1] > x[0]]
+    ret_level_sensitivity = sensitivity_return_level(
+        probabilities, config, ux, "magnitudes", magnitude_values
+    )
 
     # *********************** save files ***********************
 
@@ -257,3 +284,5 @@ if __name__ == "__main__":
     with open(get_path("dtree/outputs/sensitivity_rho.txt"), "w") as f:
         pprint(rho_sensitivity, stream=f)
     rho_sensitivity.to_excel("rho_sensitivity.xlsx", index=False)
+
+    ret_level_sensitivity.to_excel("ret_level_sensitivity.xlsx", index=False)
