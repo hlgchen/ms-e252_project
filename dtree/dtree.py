@@ -14,6 +14,10 @@ def get_project_root():
     return Path(__file__).parent.parent
 
 
+def get_path(path):
+    return os.path.join(get_project_root(), path)
+
+
 def get_return(decision, p, config, ux, verbose=True):
     """
     Returns the expected value of a deal given decisions made.
@@ -164,8 +168,19 @@ def clairvoyance(X, probabilities, config, ux):
     return result
 
 
-def get_path(path):
-    return os.path.join(get_project_root(), path)
+def sensitivity_of_risk_tolerance(probabilities, config):
+    df = pd.DataFrame()
+    for i, rho in enumerate(list(range(1, 80002, 2000)) + [9999999999]):
+        ux = get_ux(rho)
+        best_action, deal_value = get_deal_value(
+            probabilities, config, ux, verbose=False
+        )
+        df.loc[i, "risk_tolerance"] = int(rho)
+        df.loc[i, "best_action"] = best_action
+        df.loc[i, "deal_value"] = deal_value
+
+    df.risk_tolerance = df.risk_tolerance.astype(int)
+    return df
 
 
 def get_ux(risk_tolerance):
@@ -209,6 +224,9 @@ if __name__ == "__main__":
     cv_concise = dict(
         sorted(cv_concise.items(), key=lambda item: item[1], reverse=True)
     )
+    rho_sensitivity = sensitivity_of_risk_tolerance(probabilities, config)
+
+    # *********************** save files ***********************
 
     with open(get_path("dtree/outputs/probabilities.txt"), "w") as f:
         pprint(probabilities, stream=f)
@@ -235,3 +253,7 @@ if __name__ == "__main__":
 
     with open(get_path("dtree/outputs/clairvoyance_consice.txt"), "w") as f:
         pprint(cv_concise, stream=f, width=120, sort_dicts=False)
+
+    with open(get_path("dtree/outputs/sensitivity_rho.txt"), "w") as f:
+        pprint(rho_sensitivity, stream=f)
+    rho_sensitivity.to_excel("rho_sensitivity.xlsx", index=False)
