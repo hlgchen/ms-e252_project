@@ -205,6 +205,7 @@ if __name__ == "__main__":
     cv = dict()
     for uncertainty in uncertainties:
         cv[uncertainty] = clairvoyance(uncertainty, probabilities, config, ux)
+    cv_concise = {k: round(v["cv_value_with_delta"], 4) for k, v in cv.items()}
 
     with open(get_path("dtree/outputs/probabilities.txt"), "w") as f:
         pprint(probabilities, stream=f)
@@ -228,3 +229,6 @@ if __name__ == "__main__":
 
     with open(get_path("dtree/outputs/clairvoyance.txt"), "w") as f:
         pprint(cv, stream=f, width=120)
+
+    with open(get_path("dtree/outputs/clairvoyance_consice.txt"), "w") as f:
+        pprint(cv_concise, stream=f, width=120)

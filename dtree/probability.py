@@ -94,7 +94,7 @@ def market_adaption_cond_probas(weighting):
     return df
 
 
-def market_adaption_t1(config):
+def market_adaption_t1(probas, config):
     """
     Calculates probabilities of the different levels of market adoption.
 
@@ -109,10 +109,6 @@ def market_adaption_t1(config):
 
     # setup
     weighting = config["MA_inputweights"]
-    probas = dict()
-    probas["REG"] = get_probas("REG", config)
-    probas["PUBLIC_PERCEPTION"] = get_probas("PUBLIC_PERCEPTION", config)
-    probas["TECHNOLOGY"] = get_probas("TECHNOLOGY", config)
 
     # get conditional probabilities
     cat = {0: "negative", 1: "neutral", 2: "positive"}
@@ -120,10 +116,10 @@ def market_adaption_t1(config):
 
     # calculate joint probability for each combination
     public_perception_p = df.public_perception.apply(
-        lambda x: probas["PUBLIC_PERCEPTION"][cat[x]]
+        lambda x: probas["public_perception"][cat[x]]
     )
-    reg_p = df.reg.apply(lambda x: probas["REG"][cat[x]])
-    technology_p = df.technology.apply(lambda x: probas["TECHNOLOGY"][cat[x]])
+    reg_p = df.reg.apply(lambda x: probas["reg"][cat[x]])
+    technology_p = df.technology.apply(lambda x: probas["technology"][cat[x]])
     df["joint_prior"] = public_perception_p * reg_p * technology_p
 
     df["joint_ma_low"] = df.apply(
@@ -188,7 +184,7 @@ def calculate_probabilities(config, custom_p=dict()):
     )
     p["technology"] = custom_p.get("technology", get_probas("TECHNOLOGY", config))
 
-    p["ma_t1"] = custom_p.get("ma_t1", market_adaption_t1(config))
+    p["ma_t1"] = custom_p.get("ma_t1", market_adaption_t1(p, config))
     p["ma_t2"] = custom_p.get("ma_t2", market_adaption_t2(p["ma_t1"]))
 
     for coin in ["BTC", "ETH", "SOL"]:
