@@ -7,11 +7,8 @@ STOCKMARKET_T2__neutral: 0.09
 STOCKMARKET_T2__high: 0.75
 
 BTC__mag1: 0.3
-BTC__magx: 0.7
 ETH__mag1: 0.15
-ETH__magx: 0.85
 SOL__mag1: 0.05
-SOL__magx: 0.95
 
 REG__positive: 0.54
 REG__neutral: 0.28
