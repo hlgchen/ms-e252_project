@@ -156,12 +156,17 @@ def clairvoyance(X, probabilities, config, ux):
 
     deal_value_with_cv = 0
     for outcome in p_X_base.keys():
-        deal_value_with_cv += probabilities[X][outcome] * best_action_values[outcome][1]
+        deal_value_with_cv += probabilities[X][outcome] * ux[0](
+            best_action_values[outcome][1]
+        )
+    deal_value_with_cv = ux[1](deal_value_with_cv)
 
     result = dict()
-    result["deal_value_free_cv"] = deal_value_with_cv
-    result["cv_value_with_delta"] = (
-        deal_value_with_cv - get_deal_value(probabilities, config, ux, verbose=False)[1]
+    result["deal_value_free_cv"] = round(deal_value_with_cv, 4)
+    result["cv_value_with_delta"] = round(
+        deal_value_with_cv
+        - get_deal_value(probabilities, config, ux, verbose=False)[1],
+        4,
     )
     result["best_action_values"] = best_action_values
 
@@ -304,8 +309,12 @@ if __name__ == "__main__":
 
     with open(get_path("dtree/outputs/sensitivity_rho.txt"), "w") as f:
         pprint(rho_sensitivity, stream=f)
-    rho_sensitivity.to_excel("rho_sensitivity.xlsx", index=False)
+    rho_sensitivity.to_excel("dtree/outputs/rho_sensitivity.xlsx", index=False)
 
-    ret_level_sensitivity.to_excel("ret_level_sensitivity.xlsx", index=False)
+    ret_level_sensitivity.to_excel(
+        "dtree/outputs/ret_level_sensitivity.xlsx", index=False
+    )
 
-    mag_proba_sensitivity.to_excel("mag_proba_sensitivity.xlsx", index=False)
+    mag_proba_sensitivity.to_excel(
+        "dtree/outputs/mag_proba_sensitivity.xlsx", index=False
+    )
