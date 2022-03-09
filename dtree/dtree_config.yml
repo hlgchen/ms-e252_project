@@ -10,13 +10,13 @@ BTC__mag1: 0.3
 ETH__mag1: 0.15
 SOL__mag1: 0.05
 
-REG__positive: 0.52
-REG__neutral: 0.27
-REG__negative: 0.21
+REG__positive: 0.54
+REG__neutral: 0.28
+REG__negative: 0.18
 
-PUBLIC_PERCEPTION__positive: 0.4
-PUBLIC_PERCEPTION__neutral: 0.1
-PUBLIC_PERCEPTION__negative: 0.5
+PUBLIC_PERCEPTION__positive: 0.44
+PUBLIC_PERCEPTION__neutral: 0.34
+PUBLIC_PERCEPTION__negative: 0.22
 
 TECHNOLOGY__positive: 0.6
 TECHNOLOGY__neutral: 0.35

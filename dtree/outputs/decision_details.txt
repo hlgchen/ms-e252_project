@@ -1,304 +1,304 @@
-('CASH', 'BTC') has ce : 828.8832227764427 
-	scenario (inflation|high_high) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.563784
-	scenario (inflation|high) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.183966
-	scenario (inflation|neutral) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.098286
-	scenario (inflation|low) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.08705
-	scenario (inflation|low_low) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.066914
+('CASH', 'BTC') has ce : 1116.4604971036006 
+	scenario (inflation|high_high) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.6014999999999999
+	scenario (inflation|high) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.1633005
+	scenario (inflation|neutral) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.0841035
+	scenario (inflation|low) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.09091750000000001
+	scenario (inflation|low_low) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.060178499999999996
 
 
-('CASH', 'ETH') has ce : 701.3070661196912 
-	scenario (inflation|high_high) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.598452
-	scenario (inflation|high) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.168693
-	scenario (inflation|neutral) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.06543299999999999
-	scenario (inflation|low) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.09261500000000002
-	scenario (inflation|low_low) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.07480700000000001
+('CASH', 'ETH') has ce : 937.5377473015355 
+	scenario (inflation|high_high) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.642
+	scenario (inflation|high) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.13513275
+	scenario (inflation|neutral) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.05719425
+	scenario (inflation|low) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.09681625
+	scenario (inflation|low_low) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.06885675000000001
 
 
-('CASH', 'SOL') has ce : 618.4621596082659 
-	scenario (inflation|high_high) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.621564
-	scenario (inflation|high) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.15851099999999999
-	scenario (inflation|neutral) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.043531
-	scenario (inflation|low) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.09632500000000001
-	scenario (inflation|low_low) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.080069
+('CASH', 'SOL') has ce : 822.5529942573828 
+	scenario (inflation|high_high) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.669
+	scenario (inflation|high) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.11635424999999999
+	scenario (inflation|neutral) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.03925475
+	scenario (inflation|low) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.10074875
+	scenario (inflation|low_low) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.07464225000000001
+
+
+('BTC', 'SOL') has ce : -313.58418476081835 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.204332001
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.0686664945
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.03553796222325
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.09420088650000001
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.01198953903775
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.17799179850000002
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.03077158996375
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.011942658397124998
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.016383667411125
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.004029127167375
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.1238088195
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.005527402465375
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.022797907775250002
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.030956804515125003
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.010340902074375
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.010443981393375
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.014186280364375
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.026804859804375
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.021533157453374998
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.007661317861125
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.007264699936124999
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.010510263259125002
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.018645117793125
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.019859055787125005
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.013813705317375
+
+
+('BTC', 'ETH') has ce : -342.7973651228034 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.196085418
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.065895201
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.04127346069975
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.090399057
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.017468782583250003
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.170808273
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.02957049042125
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.013870093026375
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.019027839828375
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.005870446417125
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.118812051
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.008053436551125
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.021030848295750002
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.035952946500375005
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.009937268308125
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.015216901975125003
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.013632550938125002
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.025758592618125003
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.025008409945124998
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.007067491248375001
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.010584682473375
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.009695615682375001
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.017917347714375
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.018319785906375004
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.012743008867125
+
+
+('BTC', 'BTC') has ce : -386.2209538991606 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.18371554349999997
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.06173826074999999
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.049876708414499996
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.08469631274999999
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.0256876479015
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.16003298475
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.027768841107500004
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.016761244970249996
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.02299409845425
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.00863242529175
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.11131689824999998
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.01184248767975
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.0183802590765
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.04344715947825
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.009331817658750002
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.022376282847750003
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.012801956798750002
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.024189191838750006
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.030221288682749998
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.006176751329249999
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.01556465627925
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.00847364431725
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.01682569259625
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.01601088108525
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.011136964191749999
 
 
 ('CASH', 'CASH') has ce : -396.00000000000085 
 	scenario (inflation|inflation) with u-value -1.1041 (return abs: -396.0, rel:0.9604) has probability 1
 
 
-('BTC', 'SOL') has ce : -724.7291644807543 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.17832671160000002
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.068773570344
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.0454768059
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.090759532152
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.012489043900000002
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.15754782707999998
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.027635642500000005
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.017538608106
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.023145459198
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0048165310260000005
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.12615635882400003
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.0063563095580000005
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.022971796100000004
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.040177783169999995
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.010657975950000002
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.011033802569999999
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.014065183850000001
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.02441549775
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.032172343626
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.008859314574
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.008835312946000002
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.011691515242000001
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.019550699950000004
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.02029508943
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.016251284654000005
+('ETH', 'SOL') has ce : -518.6794339737895 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.2197327155
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05625470475
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.038216495235375
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.06173314575000002
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.012893203010124999
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.18993294675000003
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.033090876563125
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.0097839670854375
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.010736792038687501
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0033008436043125
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.14134648725
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.0036223007520625006
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.024516209691375003
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0330336406119375
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0084717357028125
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.0111446492398125
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.009296767216562501
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.028603149430312502
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.024583355028562497
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.0062764988574375005
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.0082937533936875
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.006887744242687502
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.0212862210871875
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.021191363967937502
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.0157704332405625
 
 
-('BTC', 'ETH') has ce : -762.0822137555042 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.17169587880000003
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.066216319992
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.04839802170000001
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.087384764136
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.018772727700000002
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.15168962843999997
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.026571243500000008
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.018665205678000004
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.024632214474000002
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.007239899718
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.12146540863200002
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.009554395794
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.021462128300000008
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.04275861471
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.010247479290000002
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.016585302509999997
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.013523457070000003
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.02347512405
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.034238943438000005
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.008277095322000001
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.013280674278
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.010923168526000003
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.018797696090000007
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.01896133029
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.015183277562000006
+('ETH', 'ETH') has ce : -559.4937855683784 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.210864579
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.0539843355
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.044384284171125
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.059241673500000015
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.018785422815375
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.18226749150000002
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.031799248904375
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.0113630088988125
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.012469610988562502
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0048093357954375
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.1356419205
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.005277699508687501
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.022615965109125002
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0383649647383125
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0081410606259375
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.016237776441937503
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.008933888897187502
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.027486690068437503
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.028550881203187498
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.005790009179812501
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.0120840154385625
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.006353877105562502
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.020455361504062502
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.019548827251312503
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.014548071354187501
 
 
-('BTC', 'BTC') has ce : -817.4657972717129 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.1617496296
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.062380444464
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.052779845400000004
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.082322612112
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.028198253400000005
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.14290233047999998
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.024974645000000004
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.020355102036
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.026862347388000002
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.010874952756
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.11442898334400001
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.014351525148
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.019197626600000003
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.046629862019999996
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.009631734300000002
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.024912552419999998
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.012710866900000001
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.0220645635
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.037338843156
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.007403766444000001
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.019948716276000002
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.009770648452000001
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.017668190300000004
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.01696069158
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.013581266924000003
+('ETH', 'BTC') has ce : -619.9449304939009 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.19756237424999998
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05057878162499999
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05363596757475
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.055504465125000006
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.02762375252325
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.17076930862499998
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.029861807416250004
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.013731571618875
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.015068839413375001
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.007072074082125
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.127085070375
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.007760797643625001
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.019765598235749998
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.046361950927875
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0076450480106250015
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.023877467245125
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.008389571418125004
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.025812001025625003
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.034502170465125
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.005060274663375
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.017769408505875
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.005553076399875001
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.019209072129375004
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.017085022176375
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.012714528524624999
 
 
-('ETH', 'SOL') has ce : -900.8775488543153 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.19083879492000003
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.060995940012
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.04866763233
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.06000516699600001
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.013365322930000001
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.16930471013999998
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.029574664750000004
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.015555159962999998
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.015302493429
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.004271827623
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.140419387932
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.004202439209000001
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.024583585070000004
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.043176018734999995
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.009452661225
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.011857191434999999
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.009299119175000002
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.026237485125
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.035809695542999995
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.007857411177
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.009834218803
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.007729781191000001
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.021761069725000002
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.021809594565
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.018088627997
+('SOL', 'SOL') has ce : -649.7909619860578 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.2299998585
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.04798017825
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.04000218391012499
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.040087985250000006
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.013495645658374997
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.19789371225000002
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.034637067629375
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.0083448395443125
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0069722084570624995
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0028153212289375
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.15303826575
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.0023522329431875
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.025661744302125
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0344181980098125
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.007225624788437499
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.0116117611374375
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.0060370917846875
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.029802009180937502
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.0266168200786875
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.005353286188312501
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.0089797890320625
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.004472731565062501
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.0230469566165625
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.022079569421812502
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.017074918522687502
 
 
-('ETH', 'ETH') has ce : -946.2901759485414 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.18374271756000002
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.058727890116
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.051793811790000005
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.05777395762800001
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.02008989399
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.16300934802
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.028435583450000006
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.016554350169
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.016285453527000004
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.006421136588999999
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.135198086676
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.006316836387
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.022967993210000006
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.045949442805
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.009088587795000002
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.017822967704999998
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.008940959485000002
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.025226936775000004
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.038109941709000006
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.007341035331000001
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.014782165328999999
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.007221792973000002
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.020922932495000005
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.020376304695000003
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.016899873791000004
+('SOL', 'ETH') has ce : -697.6993364428561 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.22071735299999998
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.0460437585
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.04645816648537499
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.0384700845
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.019663182970125
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.18990697050000002
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.033285087893124995
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.009691619480437499
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0080974584286875
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0041019287143125
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.1468618335
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.0034272081470625004
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.023672709651375
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.039972976896937504
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0069435888378125005
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.0169183594198125
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.0058014475365625005
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.028638755035312505
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.030912528708562502
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.004938354467437501
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.0130835707486875
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.0041260513876875005
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.0221473706971875
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.020368188147937505
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.0157514463455625
 
 
-('ETH', 'BTC') has ce : -1013.4568041270413 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.17309860152
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05532581527199999
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05648308098
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.054427143576
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.03017675058
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.15356630483999997
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.026726961500000004
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.018053135478
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.017759893674
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.009645100038
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.12736613479199999
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.009488432154000002
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.02054460542
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.050109578909999994
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.00854247765
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.02677163211
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.008403719950000001
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.02371111425
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.041560310957999995
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.006566471562
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.022204085118
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.006459810646000001
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.01966572665
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.01822636989
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.015116742482
+('SOL', 'BTC') has ce : -768.5029018943629 
+	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.20679359474999995
+	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.043139128874999995
+	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.056142140348249985
+	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.036043233375
+	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.028914488937749994
+	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.17792685787499998
+	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.03125711828875
+	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.011711789384624999
+	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.009785333386125
+	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.006031839942375
+	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.137597185125
+	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.005039670952875
+	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.020689157675249994
+	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.048305145227625
+	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.0065205349118750006
+	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.024878256843375
+	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.005447981164375001
+	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.026893873816875004
+	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.037356091653375
+	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.004315956886125
+	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.019239243323625
+	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.003606031121625
+	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.020797991818125004
+	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.017801116237125
+	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.013766238079874999
 
 
-('SOL', 'SOL') has ce : -1014.142787696676 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.19918018380000002
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.055810853124
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05079484995
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.039502256892
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.01394950895
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.17714263218000004
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.030867346250000004
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.014232861200999997
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.010073849582999998
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.0039086920209999996
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.14992807400400002
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.0027665256429999997
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.02565811105
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.045174842445
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.008649118075
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.012406117345000002
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.0061217427250000005
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.02745214337500001
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.038234596821
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.007189475579
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.010500156041
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.005088625157
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.023234649575000002
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.022819264655000004
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.019313523559
+('BTC', 'CASH') has ce : -2862.084743539525 
+	scenario (high_high|inflation) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.305429
+	scenario (high|inflation) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.1026405
+	scenario (neutral|inflation) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.1408085
+	scenario (low|inflation) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.26605650000000003
+	scenario (low_low|inflation) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.1850655
 
 
-('SOL', 'ETH') has ce : -1064.545293405722 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.1917739434
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.053735603532
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05405767185
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.038033419956
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.02096800485
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.17055582774000003
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.029678476750000005
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.015147113163000001
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.010720946229
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.005875294502999999
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.144353205372
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.004158463448999999
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.023971903150000005
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.04807666153500001
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.008315993465000001
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.018648077835000002
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.005885961095000001
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.02639481192500001
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.040690607223000004
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.006716995337000001
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.015783159363
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.004754209271000001
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.022339756765000003
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.021319620965000008
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.018044271277000003
+('ETH', 'CASH') has ce : -3162.496976553876 
+	scenario (high_high|inflation) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.3284495
+	scenario (high|inflation) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.08408775
+	scenario (neutral|inflation) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.09227675000000002
+	scenario (low|inflation) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.28390575
+	scenario (low_low|inflation) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.21128025
 
 
-('SOL', 'BTC') has ce : -1138.977877206154 
-	scenario (high_high|high_high) with u-value -0.0 (return abs: 150000, rel:16) has probability 0.1806645828
-	scenario (high|high_high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.05062272914399999
-	scenario (high_high|high) with u-value -0.0 (return abs: 50000.0, rel:6.0) has probability 0.0589519047
-	scenario (neutral|high_high) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.035830164552
-	scenario (high_high|neutral) with u-value -0.0006 (return abs: 30000, rel:4) has probability 0.0314957487
-	scenario (low|high_high) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.16067562108000003
-	scenario (high_high|low) with u-value -0.0166 (return abs: 16400.0, rel:2.64) has probability 0.027895172500000003
-	scenario (high|high) with u-value -0.0439 (return abs: 12500.0, rel:2.25) has probability 0.016518491105999997
-	scenario (neutral|high) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.011691591198
-	scenario (high|neutral) with u-value -0.2865 (return abs: 5000.0, rel:1.5) has probability 0.008825198226
-	scenario (low_low|high_high) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.135990902424
-	scenario (neutral|neutral) with u-value -1.0 (return abs: 0, rel:1) has probability 0.006246370158
-	scenario (high_high|low_low) with u-value -1.0 (return abs: 0.0, rel:1.0) has probability 0.0214425913
-	scenario (low|high) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.052429390170000006
-	scenario (high|low) with u-value -1.0253 (return abs: -100.0, rel:0.99) has probability 0.00781630655
-	scenario (low|neutral) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.028011018570000004
-	scenario (neutral|low) with u-value -2.3396 (return abs: -3400.0, rel:0.66) has probability 0.00553228865
-	scenario (low|low) with u-value -4.1001 (return abs: -5644.0, rel:0.4356) has probability 0.024808814750000005
-	scenario (low_low|high) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.044374622826
-	scenario (high|low_low) with u-value -4.7707 (return abs: -6250.0, rel:0.375) has probability 0.006008274974
-	scenario (low_low|neutral) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.023707664346
-	scenario (neutral|low_low) with u-value -6.5208 (return abs: -7500.0, rel:0.25) has probability 0.004252585442
-	scenario (low_low|low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.02099741755
-	scenario (low|low_low) with u-value -8.0647 (return abs: -8350.0, rel:0.165) has probability 0.019070155430000003
-	scenario (low_low|low_low) with u-value -10.4202 (return abs: -9375.0, rel:0.0625) has probability 0.016140392854000003
-
-
-('BTC', 'CASH') has ce : -3044.992803314016 
-	scenario (high_high|inflation) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.28690000000000004
-	scenario (high|inflation) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.11064600000000001
-	scenario (neutral|inflation) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.146018
-	scenario (low|inflation) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.25347
-	scenario (low_low|inflation) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.20296600000000004
-
-
-('ETH', 'CASH') has ce : -3300.796096451184 
-	scenario (high_high|inflation) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.30703
-	scenario (high|inflation) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.098133
-	scenario (neutral|inflation) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.09653900000000001
-	scenario (low|inflation) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.272385
-	scenario (low_low|inflation) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.225913
-
-
-('SOL', 'CASH') has ce : -3462.672936251972 
-	scenario (high_high|inflation) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.32045
-	scenario (high|inflation) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.089791
-	scenario (neutral|inflation) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.063553
-	scenario (low|inflation) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.28499500000000005
-	scenario (low_low|inflation) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.241211
+('SOL', 'CASH') has ce : -3350.9272003975548 
+	scenario (high_high|inflation) with u-value -0.0007 (return abs: 29200.0, rel:3.92) has probability 0.34379649999999995
+	scenario (high|inflation) with u-value -0.3088 (return abs: 4700.0, rel:1.47) has probability 0.07171925
+	scenario (neutral|inflation) with u-value -1.0513 (return abs: -200.0, rel:0.98) has probability 0.05992225
+	scenario (low|inflation) with u-value -2.4181 (return abs: -3532.0, rel:0.6468) has probability 0.29580525
+	scenario (low_low|inflation) with u-value -6.6028 (return abs: -7550.0, rel:0.245) has probability 0.22875675
 
 
