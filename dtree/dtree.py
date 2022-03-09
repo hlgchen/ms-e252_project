@@ -188,7 +188,7 @@ def sensitivity_of_risk_tolerance(probabilities, config):
     return df
 
 
-def sensitivity_return_level(probabilities, config, ux, X, magnitude_values):
+def sensitivity_return_level(probabilities, config, ux, magnitude_values):
     df = pd.DataFrame()
     for i, v in enumerate(magnitude_values):
         conf_copy = deepcopy(config)
@@ -200,7 +200,8 @@ def sensitivity_return_level(probabilities, config, ux, X, magnitude_values):
         best_action, deal_value = get_deal_value(
             probabilities, conf_copy, ux, verbose=False
         )
-        df.loc[i, X] = str(v)
+        df.loc[i, "magnitude_normal"] = v[0]
+        df.loc[i, "magnitude_extreme"] = v[1]
         df.loc[i, "best_action"] = best_action
         df.loc[i, "deal_value"] = deal_value
     return df
@@ -269,12 +270,13 @@ if __name__ == "__main__":
 
     # **** sensitivity analyses ****
     rho_sensitivity = sensitivity_of_risk_tolerance(probabilities, config)
-    magnitude_values = itertools.product(
-        np.arange(1, 2.6, 0.25), np.arange(1, 6.1, 0.5)
-    )
+
+    magnitude_values = [(1.5, i) for i in np.arange(2, 8, 0.1)] + [
+        (i, 4) for i in np.arange(1, 3, 0.1)
+    ]
     magnitude_values = [x for x in magnitude_values if x[1] > x[0]]
     ret_level_sensitivity = sensitivity_return_level(
-        probabilities, config, ux, "magnitudes", magnitude_values
+        probabilities, config, ux, magnitude_values
     )
 
     mag_proba_sensitivity = sensitivity_magnitude_probabilities(config, ux)
